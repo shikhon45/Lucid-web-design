@@ -1,0 +1,301 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/*********************************************/
+          /*  Lucid css code start   */ 
+/*********************************************/
+
+.header{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+.main-menu{
+	width: 100%;
+}
+.main-menu .bg-light{
+	background: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .nav-link.active{
+	background: url("../images/arrow.png") center bottom no-repeat;
+	background-size: auto;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: capitalize;
+	margin: 0px 0px 0px 15px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover, .main-menu .navbar-light .navbar-nav .nav-link:focus{
+	background: url("../images/arrow.png") center bottom no-repeat;
+	background-size: auto;
+}
+.banner{
+	width: 100%;
+	padding: 100px;
+}
+.banner h5{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #008ed6;
+}
+.banner h1{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 600;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	color: #fff;
+	margin: 15px 0px;
+}
+.banner p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #7f7f7f;
+}
+.buttons-group{
+	width: 100%;
+	padding: 55px 0px;
+}
+.buttons-group .btn-primary{
+	padding: 12px 22px;
+	margin: 0px 15px 0px 0px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+	border: 1px solid #008ed6;
+	transition: 0.5s ease-in;
+}
+.buttons-group .btn-primary:hover{
+	color: #008ed6;
+	background: transparent;
+	border: 1px solid #008ed6;
+}
+.buttons-group .btn-light{
+	padding: 12px 22px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #008ed6;
+	transition: 0.5s ease-in;
+}
+.buttons-group .btn-light:hover{
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+}
+
+
+/**************************************************/
+          /*  global css code for-title start   */ 
+/**************************************************/
+
+.title{
+	width: 100%;
+	padding: 0px 0px 45px;
+}
+.title h5{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #008ed6;
+}
+.title h2{
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #1a1a1a;
+	margin: 0px 0px 15px;
+}
+
+
+/**************************************************/
+          /*  global css code for-title  end   */ 
+/**************************************************/
+
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature .title{
+	text-align: center;
+}
+.inner-feature{
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+}
+.inner-feature .icons{
+	width: 90px;
+	height: 90px;
+	margin: 0px auto 20px;
+	line-height: 90px;
+	border-radius: 100%;
+	border: 1px solid #eee;
+}
+.inner-feature h4{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 400;
+	color: #1a1a1a;
+}
+.inner-feature p{
+	width: 88%;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #7f7f7f;
+	margin: 0px auto;
+}
+.about-long{
+	width: 100%;
+	padding: 80px 0px;
+}
+.about-long .title{
+	width: 100%;
+	padding: 0px 0px 16px;
+	margin: 45px 0px 0px;
+
+}
+.about-long .img-fluid{
+	width: 100%;
+}
+.about-long ul {
+	display: block;
+	padding: 15px 0px 0px;
+}
+.about-long ul li {
+	display: block;
+	list-style: none;
+	font-size: 16px;
+	font-weight: 500;
+	margin: 0px 0px 12px 0px;
+}
+.about-long ul li img {
+	width: 13px;
+	height: 15px;
+	margin: 0px 10px 0px 0px;
+}
+.about-long p{
+	width: 67%;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #7f7f7f;
+}
+.about-short{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f2f2;
+}
+.about-short .title{
+	width: 100%;
+	margin: 50px 0px 0px;
+}
+.about-short h5 {
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 25px;
+}
+.about-short h2 {
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 42px;
+}
+.about-short p{
+	width: 80%;
+    margin: 10px 0px 0px;
+}
+.about-short .title img {
+	margin: 0px 0px 8px;
+}
+.testimonial{
+	width: 100%;
+	padding: 60px 0px;
+	background: url("../images/tm.png") top center no-repeat;
+	background-size: cover;
+}
+.testimonial .testi{
+	width: 100%;
+	text-align: center;
+}
+.testimonial .testi h5 {
+	font-size: 13px;
+	line-height: 23px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #008ed6;
+}
+.testimonial .testi h2{
+	font-size: 32px;
+   line-height: 42px;
+   font-weight: 600;
+   color: #ffffff;
+}
+.testimonial .owl-carousel .item{
+	width: 100%;
+	margin: 55px 0px 0px;
+}
+.testimonial .owl-carousel .item h4 {
+	font-size: 19px;
+	line-height: 29px;
+	font-weight: 600;
+	font-style: italic;
+	color: #ffffff;
+	margin: 0px 0px 25px;
+}
+.testimonial .owl-carousel .item img{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+}
+.testimonial .owl-carousel .item p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #eee;
+	margin: 15px 0px 0px;
+	text-transform: capitalize;
+}
+.testimonial .owl-carousel .item h6{
+	font-size: 16px;
+	font-weight: 600;
+	color: #eee;
+	margin: 0px 0px 15px;
+	text-transform: uppercase;
+}
+.testimonial .owl-theme .owl-dots .owl-dot {
+  margin: 90px 0px 0px !important;
+}
+
+/*********************************************/
+          /*  Lucid css code end   */ 
+/*********************************************/
